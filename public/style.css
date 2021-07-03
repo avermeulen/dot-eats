@@ -1,0 +1,48 @@
+
+body {
+	
+	background-color: #073b4c;
+}
+.container {
+	background-color: #ffd166;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding : 1em;
+}
+
+.sell{
+	background-color: #118ab2;
+}
+
+.deliver{
+	background-color: #ef476f;
+}
+
+.order{
+	background-color: #06d6a0;
+}
+
+
+@media screen and (min-width: 780px) {
+	.container {
+		margin: auto;
+		width: 80%;
+	}
+}
+
+.options {
+	display: flex;
+}
+
+.option {
+	padding: 1em;
+	flex-grow: 1;
+	text-align: center;
+}
+
+.options a {
+	text-decoration: none;
+}
+
+.options a {
+	text-decoration: none;
+}
